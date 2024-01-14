@@ -1,0 +1,62 @@
+.inner {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.sel {
+  width: 200px;
+  padding: 3px 10px;
+  font-size: 16px;
+  text-align: center;
+  margin: 15px 0;
+}
+.sel:focus {
+  outline: none;
+}
+.startBtn {
+  width: 100px;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+  background-color: rgba(145, 186, 211, 0.462);
+  color: antiquewhite;
+  border: none;
+  margin: 15px 0;
+  text-transform: uppercase;
+  border-radius: 3px 0 3px 0;
+}
+.table {
+  width: 305px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1px;
+  border: 2px solid #000;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.table-item-true,
+.table-item-false,
+.table-item-grey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.table-item-true {
+  background-color: rgba(237, 97, 179, 0.374);
+}
+.table-item-false {
+  background-color: rgba(145, 186, 211, 0.462);
+}
+.table-item-grey {
+  background-color: rgb(255, 255, 255);
+}
